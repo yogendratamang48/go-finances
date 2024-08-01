@@ -9,6 +9,7 @@ type student struct {
 	gender     string
 }
 
+// struct method
 func (s student) printStudentDetails() {
 	fmt.Printf("Name: %v, Age: %v", s.name, s.age)
 }
